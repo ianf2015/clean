@@ -1,4 +1,4 @@
-Codebook
+Code book
 =========
 Three kinds of data are included in the tidy dataset:
 
