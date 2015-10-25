@@ -3,9 +3,7 @@ Codebook
 Three kinds of data are included in the tidy dataset:
 
 1. Subject
-
 2. Activity
-
 3. Features
 
 
