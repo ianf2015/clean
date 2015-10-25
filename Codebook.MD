@@ -1,6 +1,6 @@
 Codebook
 =========
-Three kinds of data is included in the tidy dataset:
+Three kinds of data are included in the tidy dataset:
 
 1. Subject
 
