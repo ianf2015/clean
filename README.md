@@ -1,10 +1,9 @@
 Readme
 =======
 
-This is a tidy dataset made according to the requirements in the week 3 project of "Getting and Cleaning" data.
+This is a tidy dataset made according to the requirements in the final project of "Getting and Cleaning Data" course from Coursera.
 
-The data source is "Human Activity Recognition Using Smartphones Dataset
-Version 1.0". A full description is available at the site where the data was obtained: 
+The data source is "Human Activity Recognition Using Smartphones Dataset Version 1.0". A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 Here are the data for the project: 
