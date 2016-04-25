@@ -31,7 +31,7 @@ names(mydata2)<-gsub("Mag", "Magnitude", names(mydata2))
 names(mydata2)<-gsub("BodyBody", "Body", names(mydata2))
 names(mydata2)<-gsub("^f", "frequency_", names(mydata2))
 names(mydata2)<-gsub("^t", "time_", names(mydata2))
-names(mydata2)<-gsub("-mean\\(\\)", "\\_mean", names(mydata2))
+names(mydata2)<-gsub("-mean\\(\\)", "_mean", names(mydata2))
 names(mydata2)<-gsub("-std\\(\\)", "_std", names(mydata2))
 
 ##step 5: Creates a second, independent tidy data set with the average of each variable 
