@@ -28,37 +28,37 @@ Features
 ==========
 Columns 3 to the end are features data.
 
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAcc-XYZ and timeGyroscope-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timeBobyAccelerometer-XYZ and timeGravityAccelerometer-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeAcc-XYZ and timeGyroscope-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (time_BodyAccelerometer-XYZ and time_GravityAccelerometer-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (timeBobyAccelerometerJerk-XYZ and timeBobyGyroscopeJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timeBobyAccelerometerMagnitude, timeGravityAccelerometerMagnitude, timeBobyAccelerometerJerkMagnitude, timeBobyGyroscopeMagnitude, timeBobyGyroscopeJerkMagnitude). 
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (time_BodyAccelerometerJerk-XYZ and time_BodyGyroscopeJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (time_BodyAccelerometerMagnitude, time_GravityAccelerometerMagnitude, time_BodyAccelerometerJerkMagnitude, time_BodyGyroscopeMagnitude, time_BodyGyroscopeJerkMagnitude). 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequencyBobyAccelerometer-XYZ, frequencyBobyAccelerometerJerk-XYZ, frequencyBobyGyroscope-XYZ, frequencyBobyAccelerometerJerkMagnitude, frequencyBobyGyroscopeMagnitude, frequencyBobyGyroscopeJerkMagnitude.  
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing frequency_BodyAccelerometer-XYZ, frequency_BodyAccelerometerJerk-XYZ, frequency_BodyGyroscope-XYZ, frequency_BodyAccelerometerMagnitude, frequency_BodyAccelerometerJerkMagnitude, frequency_BodyGyroscopeMagnitude, frequency_BodyGyroscopeJerkMagnitude.  
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-timeBobyAccelerometer-XYZ
-tGravityAccelerometer-XYZ
-timeBobyAccelerometerJerk-XYZ
-timeBobyGyroscope-XYZ
-timeBobyGyroscopeJerk-XYZ
-timeBobyAccelerometerMagnitudenitude
-timeGravityAccelerometerelerometerMagnitude
-timeBobyAccelerometerJerkMagnitude
-timeBobyGyroscopeMagnitude
-timeBobyGyroscopeJerkMagnitude
-frequencyBobyAccelerometer-XYZ
-frequencyBobyAccelerometerJerk-XYZ
-frequencyBobyGyroscope-XYZ
-frequencyBobyAccelerometerMagnitude
-frequencyBobyAccelerometerJerkMagnitude
-frequencyBobyGyroscopeMagnitude
-frequencyBobyGyroscopeJerkMagnitude
+time_BodyAccelerometer-XYZ
+time_GravityAccelerometer-XYZ
+time_BodyAccelerometerJerk-XYZ
+time_BodyGyroscope-XYZ
+time_BodyGyroscopeJerk-XYZ
+time_BodyAccelerometerMagnitude
+time_GravityAccelerometerMagnitude
+time_BodyAccelerometerJerkMagnitude
+time_BodyGyroscopeMagnitude
+time_BodyGyroscopeJerkMagnitude
+frequency_BodyAccelerometer-XYZ
+frequency_BodyAccelerometerJerk-XYZ
+frequency_BodyGyroscope-XYZ
+frequency_BodyAccelerometerMagnitude
+frequency_BodyAccelerometerJerkMagnitude
+frequency_BodyGyroscopeMagnitude
+frequency_BodyGyroscopeJerkMagnitude
 
 The set of variables that were estimated from these signals and included in the dataset are: 
 
-1. mean(): Mean value
-2. std(): Standard deviation
+1. _mean: Mean value
+2. _std: Standard deviation
 
 **Note:** 
 The means and standard deviations have been aggregated and averaged by each subject and activity.
